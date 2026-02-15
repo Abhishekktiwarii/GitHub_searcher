@@ -9,14 +9,23 @@ This project demonstrates clean backend architecture, external API integration, 
 # 🚀 Features
 
 ✅ Fetch repositories from GitHub Search API
+
 ✅ Store repositories in H2 database
+
 ✅ Update existing repositories (UPSERT logic)
+
 ✅ Retrieve stored repositories with filters
+
 ✅ Dynamic filtering using JPA Specifications
+
 ✅ Sorting by stars, forks, or last updated date
+
 ✅ Global exception handling
+
 ✅ Input validation
+
 ✅ REST-compliant APIs
+
 ✅ Testable using Postman (No UI)
 
 ---
