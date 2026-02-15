@@ -63,7 +63,7 @@ public class GithubServiceImpl implements GithubService {
 
         Specification<GithubRepositoryEntity> spec = Specification.where((Specification<GithubRepositoryEntity>) null);
 
-        if (language != null && !language.isBlank()) {
+        if (language != null && ! language.isBlank()) {
             spec = spec.and(GithubRepositorySpecification.hasLanguage(language));
         }
 

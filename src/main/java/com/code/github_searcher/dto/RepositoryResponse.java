@@ -7,7 +7,7 @@ import java.time.Instant;
 
 @Data
 @Builder
-public class RepositoryResponse {
+public class  RepositoryResponse {
 
     private Long id;
     private String name;

@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Data
-public class GithubSearchRequest {
+public class  GithubSearchRequest {
 
     @NotBlank(message = "Query must not be blank")
     private String query;

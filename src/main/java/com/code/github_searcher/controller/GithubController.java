@@ -15,7 +15,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/github")
 @RequiredArgsConstructor
-public class GithubController {
+public class  GithubController {
 
     private final GithubService githubService;
 
